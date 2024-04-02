@@ -1,0 +1,39 @@
+.title {
+    position: absolute;
+    top: 10rem;
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.subtitle {
+    position: absolute;
+    top: 20rem;
+    text-align: center;
+    padding: 2rem;
+    width: 75%;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.image {
+    width: calc(100% - 10%);
+    height: 50vh;
+    object-fit: cover;
+    opacity: .7;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButton {
+    width: 75%;
+    position: absolute;
+    top: 28rem;
+    display: flex;
+    justify-content: flex-start;
+}

@@ -1,22 +1,12 @@
 @import url(../../global.css);
 
 .logo {
-    height: 3rem;
-    width: 3rem;
-
-    margin-right: 15rem;
-
-    background: transparent;
-
-    border: 5px solid var(--gray-700);
-    border-radius: 50%;
-
-    display: inline-flex;
-    align-items: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
 
-    font-size: .8rem;
-    color: var(--gray-700);
+    color: var(--slate-100);
 
-    cursor: pointer;
+    padding-bottom: 1rem;
+    border-bottom: 4px solid var(--slate-500);
 }

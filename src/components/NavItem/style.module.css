@@ -1,9 +1,0 @@
-@import url(../../global.css);
-
-.navItem {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-    font-weight: 300;
-    cursor: pointer;
-}

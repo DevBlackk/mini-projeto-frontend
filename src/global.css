@@ -150,4 +150,6 @@ body {
     text-decoration: none;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
+    background: var(--slate-900);
+    color: var(--slate-200);
 }

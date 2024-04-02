@@ -1,8 +1,12 @@
-import { Header } from "./components/Header"
+import { Logo } from "./components/Logo"
+import { Section } from "./components/Section"
 
 function App() {
     return (
-            <Header />
+        <main>
+            <Logo title='Music Hub' />
+            <Section />
+        </main>
     )
 }
 
