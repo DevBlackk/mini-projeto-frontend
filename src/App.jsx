@@ -1,12 +1,12 @@
-import { Logo } from "./components/Logo"
-import { Section } from "./components/Section"
+import { Logo } from './components/logo'
+import { Presentation } from './components/presentation'
 
 function App() {
     return (
-        <main>
-            <Logo title='Music Hub' />
-            <Section />
-        </main>
+        <>
+            <Logo />
+            <Presentation />
+        </>
     )
 }
 

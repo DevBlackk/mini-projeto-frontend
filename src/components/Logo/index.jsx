@@ -1,7 +1,9 @@
-import style from "./style.module.css"
+import './style.css'
 
-export function Logo({ title }) {
+export function Logo() {
     return (
-        <h1 className={style.logo}>{title}</h1>
+        <header>
+            <h1>Music Hub</h1>
+        </header>
     )
 }
