@@ -153,3 +153,13 @@ body {
     background: var(--slate-900);
     color: var(--slate-200);
 }
+
+.root {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
