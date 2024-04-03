@@ -1,15 +1,14 @@
-import { Card } from "../card";
-import './style.css'
-
-
+import { CardArtist } from "../cardArtist";
+import { CardMusic } from "../cardMusic";
+import { CardUser } from "../cardUser";
+import "./style.css";
 
 export function SectionCard() {
-    return (
-        <section className='section-card'>
-            <div className="container-card">
-                <Card content='Users' userData={user}/>
-            </div>
-        </section>
-
-    )
+  return (
+    <section className="section-card">
+      <CardArtist content="Artist" />
+      <CardMusic content="Music" />
+      <CardUser content="User" />
+    </section>
+  );
 }

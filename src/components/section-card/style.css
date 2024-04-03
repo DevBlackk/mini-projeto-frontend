@@ -1,11 +1,7 @@
 .section-card {
     display: flex;
     width: 100%;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 3rem;
-}
-
-.container-card {
-    width: 75%;
-    margin: 0 2rem 5rem 2rem;
+    margin: 3rem 0;
 }
