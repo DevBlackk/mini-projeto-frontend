@@ -1,0 +1,11 @@
+.section-card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.container-card {
+    width: 75%;
+    margin: 0 2rem 5rem 2rem;
+}

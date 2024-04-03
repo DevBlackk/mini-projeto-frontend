@@ -1,11 +1,21 @@
-import { Logo } from './components/logo'
-import { Presentation } from './components/presentation'
+import './style.css'
+import { SectionCard } from './components/section-card'
 
 function App() {
     return (
         <>
-            <Logo />
-            <Presentation />
+            <header>
+                <h1 className='logo-title'>Music Hub</h1>
+            </header>
+            <main>
+                <section className='section-presentation'>
+                    <div className='container-text'>
+                        <h1 className='title'>Introducing a revolutionary concept for independent artists.</h1>
+                        <h2 className='subtitle'>I am developing a project idea with a strong focus on independent artists.</h2>
+                    </div>
+                </section>
+                <SectionCard />
+            </main>
         </>
     )
 }
